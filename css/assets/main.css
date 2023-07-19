@@ -496,7 +496,7 @@ section {
   text-align: center;
 }
 
-#sname {
+.sname {
   position: absolute;
   margin-top: 0px;
   margin-bottom: 100px;
@@ -504,11 +504,11 @@ section {
 
   color: rgba(1, 1, 1, 0.7);
 }
-#sname a {
+.sname a {
   font-size: 1.5em;
   transition: all 500ms;
 }
-#sname a:hover {
+.sname a:hover {
   font-size: 50px;
   font-size-adjust: 20px;
 

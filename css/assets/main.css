@@ -1,3 +1,4 @@
+
 body {
   color: #ccc;
   background: #111;
@@ -495,6 +496,26 @@ section {
   text-align: center;
 }
 
+#sname {
+  position: absolute;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+
+  color: rgba(1, 1, 1, 0.7);
+}
+#sname a {
+  font-size: 1.5em;
+  transition: all 500ms;
+}
+#sname a:hover {
+  font-size: 50px;
+  font-size-adjust: 20px;
+
+}
+
+
+
 .environment {
   position: absolute;
   top: 0;
@@ -507,4 +528,30 @@ section {
     center no-repeat;
   background-size: cover;
 }
+
+ a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+
+.myclass {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+
+
+
 
